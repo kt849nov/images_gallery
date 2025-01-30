@@ -9,12 +9,51 @@
     <h1>Responsive Images Example</h1>
     <p>Resize the browser window to see the images change based on the viewport size.</p>
 
-    <picture>
-        <source srcset="https://picsum.photos/800/600" media="(min-width: 800px)">
-        <source srcset="https://picsum.photos/600/400" media="(min-width: 600px)">
-        <img src="https://picsum.photos/400/300" alt="Random Image" style="width: 100%; height: auto;">
-    </picture>
+    <div>
+        <h2>Image 1</h2>
+        <picture>
+            <source srcset="https://picsum.photos/800/600?random=1" media="(min-width: 800px)">
+            <source srcset="https://picsum.photos/600/400?random=1" media="(min-width: 600px)">
+            <img src="https://picsum.photos/400/300?random=1" alt="Random Image 1" style="width: 100%; height: auto;">
+        </picture>
+    </div>
 
-    <p>This is an example where the image changes as the viewport size changes using the `srcset` and `picture` tag.</p>
+    <div>
+        <h2>Image 2</h2>
+        <picture>
+            <source srcset="https://picsum.photos/800/600?random=2" media="(min-width: 800px)">
+            <source srcset="https://picsum.photos/600/400?random=2" media="(min-width: 600px)">
+            <img src="https://picsum.photos/400/300?random=2" alt="Random Image 2" style="width: 100%; height: auto;">
+        </picture>
+    </div>
+
+    <div>
+        <h2>Image 3</h2>
+        <picture>
+            <source srcset="https://picsum.photos/800/600?random=3" media="(min-width: 800px)">
+            <source srcset="https://picsum.photos/600/400?random=3" media="(min-width: 600px)">
+            <img src="https://picsum.photos/400/300?random=3" alt="Random Image 3" style="width: 100%; height: auto;">
+        </picture>
+    </div>
+
+    <div>
+        <h2>Image 4</h2>
+        <picture>
+            <source srcset="https://picsum.photos/800/600?random=4" media="(min-width: 800px)">
+            <source srcset="https://picsum.photos/600/400?random=4" media="(min-width: 600px)">
+            <img src="https://picsum.photos/400/300?random=4" alt="Random Image 4" style="width: 100%; height: auto;">
+        </picture>
+    </div>
+
+    <div>
+        <h2>Image 5</h2>
+        <picture>
+            <source srcset="https://picsum.photos/800/600?random=5" media="(min-width: 800px)">
+            <source srcset="https://picsum.photos/600/400?random=5" media="(min-width: 600px)">
+            <img src="https://picsum.photos/400/300?random=5" alt="Random Image 5" style="width: 100%; height: auto;">
+        </picture>
+    </div>
+
+    <p>This example contains 5 images that change dynamically based on the viewport size.</p>
 </body>
 </html>
